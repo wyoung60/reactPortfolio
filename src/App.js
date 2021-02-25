@@ -1,9 +1,9 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
-import AboutSection from "./components/AboutSection";
-import ContactSection from "./components/ContactSection";
-import HomeSection from "./components/HomeSection";
-import ProjectsSection from "./components/ProjectsSection";
+import AboutSection from "./components/AboutSection/AboutSection";
+import ContactSection from "./components/ContactSection/ContactSection";
+import HomeSection from "./components/HomeSection/HomeSection";
+import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
 
 function App() {
   return (

@@ -3,21 +3,29 @@ import "./style.css";
 
 const NavBar = () => {
   return (
-    <ul class="navElements">
-      <li class="navElement">
-        <a href="#home">Home</a>
+    <ul className="navElements">
+      <li className="navElement">
+        <a className="anchor" href="#home">
+          Home
+        </a>
       </li>
-      <li class="navElement">
-        <a href="#about">About</a>
+      <li className="navElement">
+        <a className="anchor" href="#about">
+          About
+        </a>
       </li>
-      <li class="navElement">
-        <a href="#projects">Projects</a>
+      <li className="navElement">
+        <a className="anchor" href="#projects">
+          Projects
+        </a>
       </li>
-      <li class="navElement">
-        <a href="#contact">Contact</a>
+      <li className="navElement">
+        <a className="anchor" href="#contact">
+          Contact
+        </a>
       </li>
-      <li class="navElement">
-        <a href="./Assets/Images/Resume.pdf" target="_blank">
+      <li className="navElement">
+        <a className="anchor" href="./Assets/Images/Resume.pdf" target="_blank">
           Resume
         </a>
       </li>

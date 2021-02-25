@@ -2,10 +2,10 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section class="infoBlock" id="about">
-      <div class="internalElements">
+    <section className="infoBlock" id="about">
+      <div className="internalElements">
         <header>
-          <h1 class="header">About Me</h1>
+          <h1 className="header">About Me</h1>
         </header>
         <hr />
         <p>

@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <section class="infoBlock" id="contact">
-      <div class="internalElements">
+    <section className="infoBlock" id="contact">
+      <div className="internalElements">
         <header>
           <h1>Contact</h1>
         </header>
@@ -12,30 +12,30 @@ const ContactSection = () => {
 
         <form>
           <div>
-            <label for="userName">Name</label>
+            <label htmlFor="userName">Name</label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="userName"
               placeholder="Enter Name"
             />
           </div>
 
           <div>
-            <label for="userEmail">Email</label>
+            <label htmlFor="userEmail">Email</label>
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               id="userEmail"
               placeholder="Email Address"
             />
           </div>
 
           <div>
-            <label for="userMessage">Message</label>
+            <label htmlFor="userMessage">Message</label>
             <textarea
               type="text"
-              class="form-control"
+              className="form-control"
               id="userMessage"
               placeholder="Message"
               rows="3"
@@ -43,7 +43,7 @@ const ContactSection = () => {
           </div>
 
           <div>
-            <button type="button" class="btn btn-dark">
+            <button type="button" className="btn btn-dark">
               Submit
             </button>
           </div>

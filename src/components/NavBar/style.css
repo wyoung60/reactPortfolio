@@ -9,7 +9,11 @@
 }
 
 .navElement {
-  color: white;
   display: inline;
   margin: 1%;
+}
+
+.anchor {
+  font-family: "Alfa Slab One", cursive;
+  color: white;
 }

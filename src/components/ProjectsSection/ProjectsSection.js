@@ -1,37 +1,43 @@
 import React from "react";
+import "./style.css";
+import ProjectOneImage from "../../Assets/Images/Project_photo.JPG";
+import ProjectTwoImage from "../../Assets/Images/Project2.JPG";
+import WeatherDashboardImage from "../../Assets/Images/Weather_Dashboard.JPG";
 
 const ProjectsSection = () => {
   return (
-    <section class="infoBlock" id="projects">
-      <div class="internalElements">
+    <section className="infoBlock" id="projects">
+      <div className="internalElements">
         <header>
           <h1>Projects</h1>
         </header>
         <hr />
-        <div class="justify-content-center">
-          <section class="col-md-4">
-            <div class="card mb-2">
+        <div className="justify-content-center">
+          <section className="col-md-4">
+            <div className="card mb-2">
               <img
-                class="card-img-top"
-                src="./Assets/Images/Project_photo.JPG"
+                className="card-img-top"
+                src={ProjectOneImage}
                 alt="Project"
               />
-              <div class="card-body">
-                <h2 class="card-title row justify-content-center">
+              <div className="card-body">
+                <h2 className="card-title row justify-content-center">
                   Pours In The Outdoors
                 </h2>
-                <section class="row justify-content-center">
+                <section className="row justify-content-center">
                   <a
                     href="https://github.com/sethklusmire/Project1"
-                    class="btn btn-secondary col"
+                    className="btn btn-secondary col"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Repository
                   </a>
                   <a
                     href="https://sethklusmire.github.io/Project1/"
-                    class="btn btn-secondary col"
+                    className="btn btn-secondary col"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Website
                   </a>
@@ -39,29 +45,31 @@ const ProjectsSection = () => {
               </div>
             </div>
           </section>
-          <section class="col-md-4">
-            <div class="card mb-2">
+          <section className="col-md-4">
+            <div className="card mb-2">
               <img
-                class="card-img-top"
-                src="./Assets/Images/Weather_Dashboard.JPG"
+                className="card-img-top"
+                src={WeatherDashboardImage}
                 alt="Project"
               />
-              <div class="card-body">
-                <h2 class="card-title row justify-content-center">
+              <div className="card-body">
+                <h2 className="card-title row justify-content-center">
                   Weather Dashboard
                 </h2>
-                <section class="row justify-content-center">
+                <section className="row justify-content-center">
                   <a
                     href="https://github.com/wyoung60/weatherDashboard"
-                    class="btn btn-secondary col"
+                    className="btn btn-secondary col"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Repository
                   </a>
                   <a
                     href="https://wyoung60.github.io/weatherDashboard/"
-                    class="btn btn-secondary col"
+                    className="btn btn-secondary col"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Website
                   </a>
@@ -69,29 +77,31 @@ const ProjectsSection = () => {
               </div>
             </div>
           </section>
-          <section class="col-md-4">
-            <div class="card mb-2">
+          <section className="col-md-4">
+            <div className="card mb-2">
               <img
-                class="card-img-top"
-                src="./Assets/Images/Project2.JPG"
+                className="card-img-top"
+                src={ProjectTwoImage}
                 alt="Project"
               />
-              <div class="card-body">
-                <h2 class="card-title row justify-content-center">
+              <div className="card-body">
+                <h2 className="card-title row justify-content-center">
                   Quiet Sands
                 </h2>
-                <section class="row justify-content-center">
+                <section className="row justify-content-center">
                   <a
                     href="https://github.com/wyoung60/project2"
-                    class="btn btn-secondary col"
+                    className="btn btn-secondary col"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Repository
                   </a>
                   <a
                     href="https://quiet-sands-70711.herokuapp.com/"
-                    class="btn btn-secondary col"
+                    className="btn btn-secondary col"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Website
                   </a>
