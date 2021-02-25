@@ -5,7 +5,11 @@ const ProjectsSection = ({ name, img, website, github }) => {
   return (
     <section className="col-md-4 child">
       <div className="card mb-2">
-        <img className="card-img-top" src={img} alt="Project" />
+        <img
+          className="card-img-top"
+          src={process.env.PUBLIC_URL + img}
+          alt="Project"
+        />
         <div className="card-body">
           <h2 className="card-title row justify-content-center">{name}</h2>
           <section className="row justify-content-center">
