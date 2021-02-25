@@ -1,15 +1,15 @@
 import React from "react";
 import "./style.css";
 
-const ProjectsHeader = ({ children }) => {
+const ProjectsHeader = ({ children, title, id }) => {
   return (
-    <section className="infoBlock" id="projects">
+    <section className="infoBlock" id={id}>
       <div className="internalElements">
         <header>
-          <h1>Projects</h1>
+          <h1>{title}</h1>
         </header>
         <hr />
-        <div className="center">{children}</div>
+        <div>{children}</div>
       </div>
     </section>
   );

@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Pours In The Outdoors",
+        "Description": "",
         "github": "https://github.com/sethklusmire/Project1",
         "website": "https://sethklusmire.github.io/Project1/",
         "img": "/Assets/Images/Project_photo.JPG"
@@ -10,6 +11,7 @@
     {
          "id": 2,
         "name": "Weather Dashboard",
+        "Description": "",
         "github": "https://github.com/wyoung60/weatherDashboard",
         "website": "https://wyoung60.github.io/weatherDashboard/",
         "img": "/Assets/Images/Weather_Dashboard.JPG"
@@ -17,8 +19,33 @@
     {
          "id": 3,
         "name": "Quiet Sands",
+        "Description": "",
         "github": "https://github.com/wyoung60/project2",
         "website": "https://quiet-sands-70711.herokuapp.com/",
         "img": "/Assets/Images/Project2.JPG"
+    },
+    {
+         "id": 4,
+        "name": "Note Taker",
+        "Description": "",
+        "github": "https://github.com/wyoung60/noteTaker",
+        "website": "https://intense-springs-14672.herokuapp.com/",
+        "img": "/Assets/Images/Note_Taker.JPG"
+    },
+    {
+         "id": 5,
+        "name": "Workday Planner",
+        "Description": "",
+        "github": "https://github.com/wyoung60/dayPlanner",
+        "website": "https://wyoung60.github.io/dayPlanner/",
+        "img": "/Assets/Images/Workday_Planner.JPG"
+    },
+    {
+         "id": 6,
+        "name": "Fitness Tracker",
+        "Description": "",
+        "github": "https://github.com/wyoung60/fitnessTracker",
+        "website": "https://young-atoll-03644.herokuapp.com/",
+        "img": "/Assets/Images/Fitness_Tracker.JPG"
     }
 ]

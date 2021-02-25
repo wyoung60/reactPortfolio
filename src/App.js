@@ -4,15 +4,17 @@ import ContactSection from "./components/ContactSection/ContactSection";
 import HomeSection from "./components/HomeSection/HomeSection";
 import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
 import Projects from "./projects.json";
-import ProjectsHeader from "./components/ProjectsSection/ProjectsHeader";
+import SectionHeader from "./components/SectionHeader/SectionHeader";
 
 function App() {
   return (
     <div>
       <NavBar />
       <HomeSection />
-      <AboutSection />
-      <ProjectsHeader>
+      <SectionHeader title="About Me" id="about">
+        <AboutSection />
+      </SectionHeader>
+      <SectionHeader title="Projects" id="projects">
         {Projects.map((project) => (
           <ProjectsSection
             name={project.name}
@@ -22,8 +24,10 @@ function App() {
             github={project.github}
           />
         ))}
-      </ProjectsHeader>
-      <ContactSection />
+      </SectionHeader>
+      <SectionHeader title="Contact" id="contact">
+        <ContactSection />
+      </SectionHeader>
     </div>
   );
 }

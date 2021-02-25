@@ -1,25 +1,10 @@
-h1 {
-  font-family: "Alfa Slab One", cursive;
-  font-size: 300%;
-  color: black;
-  text-shadow: 2px -2px 2px grey;
-}
-
-.infoBlock {
-  scroll-margin-top: 70px;
-  margin: 0.5%;
-  margin-bottom: 4%;
-}
-
-.internalElements {
-  margin: 0.5%;
-}
-
 .card-img-top {
   height: 300px;
+  border-bottom: black solid 1px;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
+.child {
+  display: inline-block;
+  margin: 0 auto;
+  min-width: 300px;
 }

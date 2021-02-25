@@ -3,7 +3,7 @@ import "./style.css";
 
 const ProjectsSection = ({ name, img, website, github }) => {
   return (
-    <section className="col-md-4">
+    <section className="col-md-4 child">
       <div className="card mb-2">
         <img className="card-img-top" src={img} alt="Project" />
         <div className="card-body">
