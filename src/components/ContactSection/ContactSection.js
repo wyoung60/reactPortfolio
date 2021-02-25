@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const ContactSection = () => {
   return (
@@ -7,9 +8,7 @@ const ContactSection = () => {
         <header>
           <h1>Contact</h1>
         </header>
-
         <hr />
-
         <form>
           <div>
             <label htmlFor="userName">Name</label>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Resume from "../../Assets/Images/Resume.pdf";
 
 const NavBar = () => {
   return (
@@ -25,7 +26,12 @@ const NavBar = () => {
         </a>
       </li>
       <li className="navElement">
-        <a className="anchor" href="./Assets/Images/Resume.pdf" target="_blank">
+        <a
+          className="anchor"
+          href={Resume}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Resume
         </a>
       </li>

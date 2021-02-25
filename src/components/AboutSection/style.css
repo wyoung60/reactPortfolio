@@ -14,12 +14,3 @@ h1 {
 .internalElements {
   margin: 0.5%;
 }
-
-.card-img-top {
-  height: 300px;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-}

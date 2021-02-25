@@ -1,11 +1,12 @@
 import React from "react";
+import "./style.css";
 
 const AboutSection = () => {
   return (
     <section className="infoBlock" id="about">
       <div className="internalElements">
         <header>
-          <h1 className="header">About Me</h1>
+          <h1>About Me</h1>
         </header>
         <hr />
         <p>
