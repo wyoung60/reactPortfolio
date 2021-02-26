@@ -25,16 +25,6 @@ const NavBar = () => {
           Contact
         </a>
       </li>
-      <li className="navElement">
-        <a
-          className="anchor"
-          href={Resume}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </a>
-      </li>
     </ul>
   );
 };
