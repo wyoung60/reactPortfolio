@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+//Stateless component takes in props and returns projects
 const ProjectsSection = ({ name, img, website, github }) => {
   return (
     <section className="col-md-4 child">

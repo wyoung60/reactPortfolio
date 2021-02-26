@@ -7,6 +7,7 @@ import Projects from "./projects.json";
 import SectionHeader from "./components/SectionHeader/SectionHeader";
 import Footer from "./components/Footer/Footer";
 
+//Returns page
 function App() {
   return (
     <div>

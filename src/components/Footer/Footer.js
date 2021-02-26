@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Resume from "../../Assets/Images/Resume.pdf";
 
+//Returns footer
 const Footer = () => {
   return (
     <ul className="footerElement">

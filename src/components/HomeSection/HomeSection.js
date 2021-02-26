@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 
+//Return home section with function for github and linkedin emblems
 const HomeSection = () => {
   function onClick(link) {
     let url;

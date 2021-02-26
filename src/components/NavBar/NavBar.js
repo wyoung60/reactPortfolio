@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import Resume from "../../Assets/Images/Resume.pdf";
 
+//Returns navbar
 const NavBar = () => {
   return (
     <ul className="navElements">

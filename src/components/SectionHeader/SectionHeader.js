@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const ProjectsHeader = ({ children, title, id }) => {
+//Returns header for each section
+const SectionHeader = ({ children, title, id }) => {
   return (
     <section className="infoBlock" id={id}>
       <div className="internalElements">
@@ -15,4 +16,4 @@ const ProjectsHeader = ({ children, title, id }) => {
   );
 };
 
-export default ProjectsHeader;
+export default SectionHeader;

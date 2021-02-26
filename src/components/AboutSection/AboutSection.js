@@ -1,5 +1,6 @@
 import React from "react";
 
+//Returns about informations
 const AboutSection = () => {
   return (
     <p>
