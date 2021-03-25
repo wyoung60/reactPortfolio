@@ -5,7 +5,6 @@ import HomeSection from "./components/HomeSection/HomeSection";
 import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
 import Projects from "./projects.json";
 import SectionHeader from "./components/SectionHeader/SectionHeader";
-import Footer from "./components/Footer/Footer";
 
 //Returns page
 function App() {
@@ -30,7 +29,6 @@ function App() {
       <SectionHeader title="Contact" id="contact">
         <ContactSection />
       </SectionHeader>
-      <Footer />
     </div>
   );
 }

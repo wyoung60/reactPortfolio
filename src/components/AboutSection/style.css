@@ -1,0 +1,35 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("../../Assets/Images/Background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutSection {
+  display: inline-flex;
+  /* flex-flow: wrap; */
+}
+
+.profilePic {
+  float: left;
+  height: 300px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.bio {
+  clear: both;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 2%;
+  font-size: larger;
+}

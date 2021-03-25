@@ -1,3 +1,32 @@
 .btn {
   margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .contactSection {
+    display: flex;
+  }
+  .contactForm {
+    width: 65%;
+    max-height: 10px;
+  }
+
+  .contactInfo {
+    border: 1px solid grey;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 1%;
+    height: 250px;
+    border-radius: 3px;
+    text-align: center;
+  }
+}
+
+.contactInfo {
+  border: 1px solid grey;
+  margin-top: 1%;
+  height: 250px;
+  border-radius: 3px;
+  text-align: center;
 }
