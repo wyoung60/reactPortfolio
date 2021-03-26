@@ -16,7 +16,6 @@ body {
 
 .aboutSection {
   display: inline-flex;
-  /* flex-flow: wrap; */
 }
 
 .profilePic {
