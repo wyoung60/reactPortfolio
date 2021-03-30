@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 //Stateless component takes in props and returns projects
-const ProjectsSection = ({ name, img, website, github }) => {
+const ProjectsSection = ({ name, img, website, github, description }) => {
   return (
     <section className="col-md-4 child">
       <div className="card mb-2">
@@ -13,10 +13,11 @@ const ProjectsSection = ({ name, img, website, github }) => {
         />
         <div className="card-body">
           <h3 className="card-title row justify-content-center">{name}</h3>
+          <p>{description}</p>
           <section className="row justify-content-center">
             <a
               href={github}
-              className="btn btn-secondary col"
+              className="btn btn-secondary col projectButton"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +25,7 @@ const ProjectsSection = ({ name, img, website, github }) => {
             </a>
             <a
               href={website}
-              className="btn btn-secondary col"
+              className="btn btn-secondary col projectButton"
               target="_blank"
               rel="noopener noreferrer"
             >

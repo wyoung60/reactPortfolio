@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Pours In The Outdoors",
-        "Description": "",
+        "description": "",
         "github": "https://github.com/sethklusmire/Project1",
         "website": "https://sethklusmire.github.io/Project1/",
         "img": "/Assets/Images/Project_photo.JPG"
@@ -11,7 +11,7 @@
     {
          "id": 2,
         "name": "Weather Dashboard",
-        "Description": "",
+        "description": "Weather forecast application that uses a third party API (OpenWeather API) and local storage to save search history.",
         "github": "https://github.com/wyoung60/weatherDashboard",
         "website": "https://wyoung60.github.io/weatherDashboard/",
         "img": "/Assets/Images/Weather_Dashboard.JPG"
@@ -19,7 +19,7 @@
     {
          "id": 3,
         "name": "Quiet Sands",
-        "Description": "",
+        "description": "New Year's resolution application. Uses Express, Express Handlebars, Passport, Sequelize, and MySQL.",
         "github": "https://github.com/wyoung60/project2",
         "website": "https://quiet-sands-70711.herokuapp.com/",
         "img": "/Assets/Images/Project2.JPG"

@@ -23,6 +23,7 @@ function App() {
             website={project.website}
             key={project.id}
             github={project.github}
+            description={project.description}
           />
         ))}
       </SectionHeader>

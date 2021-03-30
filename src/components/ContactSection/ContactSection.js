@@ -41,9 +41,9 @@ const ContactSection = () => {
         </div>
       </form>
       <aside className="contactInfo">
-        <h4>Wesley Young</h4>
-        <h6>Email: wesley.young12@outlook.com</h6>
-        <h6>Castle Rock, CO</h6>
+        <h4 className="contactDetails">Wesley Young</h4>
+        <h6 className="contactDetails">Email: wesley.young12@outlook.com</h6>
+        <h6 className="contactDetails">Castle Rock, CO</h6>
       </aside>
     </section>
   );
