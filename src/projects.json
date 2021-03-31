@@ -1,13 +1,12 @@
 [
-    {
-        "id": 1,
-        "name": "Pours In The Outdoors",
-        "description": "",
-        "github": "https://github.com/sethklusmire/Project1",
-        "website": "https://sethklusmire.github.io/Project1/",
-        "img": "/Assets/Images/Project_photo.JPG"
-        
-    },
+   {
+         "id": 1,
+        "name": "Quiet Sands",
+        "description": "New Year's resolution application. Uses Express, Express Handlebars, Passport, Sequelize, and MySQL.",
+        "github": "https://github.com/wyoung60/project2",
+        "website": "https://quiet-sands-70711.herokuapp.com/",
+        "img": "/Assets/Images/Project2.JPG"
+    },  
     {
          "id": 2,
         "name": "Weather Dashboard",
@@ -15,13 +14,13 @@
         "github": "https://github.com/wyoung60/weatherDashboard",
         "website": "https://wyoung60.github.io/weatherDashboard/",
         "img": "/Assets/Images/Weather_Dashboard.JPG"
-    },
+    },   
     {
-         "id": 3,
-        "name": "Quiet Sands",
-        "description": "New Year's resolution application. Uses Express, Express Handlebars, Passport, Sequelize, and MySQL.",
-        "github": "https://github.com/wyoung60/project2",
-        "website": "https://quiet-sands-70711.herokuapp.com/",
-        "img": "/Assets/Images/Project2.JPG"
+        "id": 3,
+        "name": "Pours In The Outdoors",
+        "description": "Hiking application that allows users to find a hike then locate an area brewery.  Uses third party API's (OpenWeather, Zomato, and Hiking Project), JavaScript, and Bootstrap.",
+        "github": "https://github.com/sethklusmire/Project1",
+        "website": "https://sethklusmire.github.io/Project1/",
+        "img": "/Assets/Images/Project_photo.JPG"        
     }
 ]

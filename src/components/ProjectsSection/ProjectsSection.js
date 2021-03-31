@@ -13,7 +13,7 @@ const ProjectsSection = ({ name, img, website, github, description }) => {
         />
         <div className="card-body">
           <h3 className="card-title row justify-content-center">{name}</h3>
-          <p>{description}</p>
+          <p className="description">{description}</p>
           <section className="row justify-content-center">
             <a
               href={github}

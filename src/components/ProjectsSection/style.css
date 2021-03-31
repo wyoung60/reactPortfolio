@@ -6,7 +6,11 @@
 .child {
   display: inline-block;
   margin: 0 auto;
-  min-width: 300px;
+  min-width: 350px;
+}
+
+.description {
+  min-height: 125px;
 }
 
 .projectButton {

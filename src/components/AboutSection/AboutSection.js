@@ -17,7 +17,7 @@ const AboutSection = () => {
           for creating and troubleshooting code.
         </p>
         <p>
-          <b>Languages:</b> JavaScript, CCS, HTML, MySQL, & NoSQL
+          <b>Languages:</b> JavaScript, CCS, HTML, SQL, & NoSQL
         </p>
         <p>
           <b>Technologies:</b> Express, Node.js, jQuery, MySQL, & MongoDB
