@@ -34,4 +34,10 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+  .aboutChildren {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
