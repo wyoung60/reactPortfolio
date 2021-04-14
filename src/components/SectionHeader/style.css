@@ -24,3 +24,15 @@ h1 {
   color: #000000;
   text-shadow: 2px -2px 2px grey;
 }
+
+@media only screen and (max-width: 600px) {
+  .infoBlock {
+    all: unset;
+    background-color: #646c79;
+    width: 100%;
+    align-content: center;
+  }
+  .internalElements {
+    margin: 10px;
+  }
+}
