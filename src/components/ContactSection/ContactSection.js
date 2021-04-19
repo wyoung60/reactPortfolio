@@ -33,7 +33,9 @@ const ContactSection = () => {
           id="userName"
           placeholder="Enter Name"
         />
-        <label htmlFor="userEmail">Email</label>
+        <label htmlFor="userEmail" className="tag">
+          Email
+        </label>
         <input
           name="user_email"
           type="text"
@@ -41,7 +43,9 @@ const ContactSection = () => {
           id="userEmail"
           placeholder="Email Address"
         />
-        <label htmlFor="userMessage">Message</label>
+        <label htmlFor="userMessage" className="tag">
+          Message
+        </label>
         <textarea
           name="user_message"
           type="text"
@@ -57,7 +61,7 @@ const ContactSection = () => {
       <aside className="contactInfo">
         <h4 className="contactDetails">Wesley Young</h4>
         <h6 className="contactDetails">Email: wesley.young12@outlook.com</h6>
-        <h6 className="contactDetails">Castle Rock, CO</h6>
+        <h6>Castle Rock, CO</h6>
       </aside>
     </section>
   );

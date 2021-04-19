@@ -3,13 +3,16 @@
   margin-bottom: 5px;
 }
 
+.tag {
+  margin-top: 3px;
+}
+
 @media only screen and (min-width: 1200px) {
   .contactSection {
     display: flex;
   }
   .contactForm {
     width: 65%;
-    max-height: 10px;
   }
 
   .contactInfo {
@@ -24,13 +27,13 @@
 }
 
 .contactInfo {
-  border: 1px solid grey;
+  border: 1px solid black;
   margin-top: 1%;
-  height: 250px;
+  min-height: 250px;
   border-radius: 3px;
   text-align: center;
 }
 
 .contactDetails {
-  margin-bottom: 20%;
+  margin-bottom: 25%;
 }
