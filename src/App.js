@@ -12,10 +12,12 @@ function App() {
     <div>
       <NavBar />
       <HomeSection />
-      <SectionHeader title="About Me" id="about">
+      <div className="topper" id="about"></div>
+      <SectionHeader title="About Me">
         <AboutSection />
       </SectionHeader>
-      <SectionHeader title="Projects" id="projects">
+      <div className="topper" id="projects"></div>
+      <SectionHeader title="Projects">
         {Projects.map((project) => (
           <ProjectsSection
             name={project.name}
@@ -27,7 +29,8 @@ function App() {
           />
         ))}
       </SectionHeader>
-      <SectionHeader title="Contact" id="contact">
+      <div className="topper" id="contact"></div>
+      <SectionHeader title="Contact">
         <ContactSection />
       </SectionHeader>
     </div>
